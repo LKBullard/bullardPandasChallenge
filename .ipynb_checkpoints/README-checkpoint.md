@@ -1,98 +1,82 @@
-# bullardPandasChallenge
-Week 4 challenge
-Congratulations! After a lot of hard work in the data munging mines, you've landed a job as Lead Analyst for an independent gaming company. You've been assigned the task of analyzing the data for their most recent fantasy game Heroes of Pymoli.
+# Pandas Homework - Pandas, Pandas, Pandas
 
-Like many others in its genre, the game is free-to-play, but players are encouraged to purchase optional items that enhance their playing experience. 
+![Fantasy](Images/Fantasy.png)
 
-As a first task, the company would like you to generate a report that breaks down the game's purchasing data into meaningful insights.
+## Heroes of Pymoli
 
+## Scenario: After a lot of hard work in the data munging mines, you've landed a job as Lead Analyst for an independent gaming company. You've been assigned the task of analyzing the data for their most recent fantasy game Heroes of Pymoli.
 
+## Like many others in its genre, the game is free-to-play, but players are encouraged to purchase optional items that enhance their playing experience. As a first task, the company would like you to generate a report that breaks down the game's purchasing data into meaningful insights.
 
-Your final report should include each of the following:
+## Requirements: 
 
-Player Count:D
--Total Number of Players
+* You must use the Pandas Library and the Jupyter Notebook.
+* You must submit a link to your Jupyter Notebook with the viewable Data Frames.
+* You must include a written description of three observable trends based on the data.
+* Your final report should include each of the following:
 
+### Player Count
 
-Purchasing Analysis (Total):D
--Number of Unique Items
--Average Purchase Price
--Total Number of Purchases
--Total Revenue
+* Total Number of Players
 
+### Purchasing Analysis (Total)
 
+* Number of Unique Items
+* Average Purchase Price
+* Total Number of Purchases
+* Total Revenue
 
-Gender Demographics:D
--Percentage and Count of Male Players
--Percentage and Count of Female Players
--Percentage and Count of Other / Non-Disclosed
+### Gender Demographics
 
+* Percentage and Count of Male Players
+* Percentage and Count of Female Players
+* Percentage and Count of Other / Non-Disclosed
 
+### Purchasing Analysis (Gender)
 
-Purchasing Analysis (Gender):D
-The below, each broken by gender:
--Purchase Count
--Average Purchase Price
--Total Purchase Value
--Average Purchase Total per Person by Gender
+* The below each broken by gender
+  * Purchase Count
+  * Average Purchase Price
+  * Total Purchase Value
+  * Average Purchase Total per Person by Gender
 
+### Age Demographics
 
+* The below each broken into bins of 4 years (i.e. &lt;10, 10-14, 15-19, etc.)
+  * Purchase Count
+  * Average Purchase Price
+  * Total Purchase Value
+  * Average Purchase Total per Person by Age Group
 
-Age Demographics:D
-The below, each broken into bins of 4 years (i.e. <10, 10-14, 15-19, etc.):
--Purchase Count
--Average Purchase Price
--Total Purchase Value
--Average Purchase Total per Person by Age Group
+### Top Spenders
 
+* Identify the the top 5 spenders in the game by total purchase value, then list (in a table):
+  * SN
+  * Purchase Count
+  * Average Purchase Price
+  * Total Purchase Value
 
-Purchasing Analysis (Age):D
-Bin the purchase_data data frame by age
-Run basic calculations to obtain:
---purchase count
---avg. purchase price
---total purchase value
---avg. purchase total per person 
-Create & Display the summary data frame, opt: with cleaner formatting
+### Most Popular Items
 
+* Identify the 5 most popular items by purchase count, then list (in a table):
+  * Item ID
+  * Item Name
+  * Purchase Count
+  * Item Price
+  * Total Purchase Value
 
-Top Spenders:
-Identify the the top 5 spenders in the game by total purchase value, then list (in a table):
--SN
--Purchase Count
--Average Purchase Price
--Total Purchase Value
+### Most Profitable Items
 
+* Identify the 5 most profitable items by total purchase value, then list (in a table):
+  * Item ID
+  * Item Name
+  * Purchase Count
+  * Item Price
+  * Total Purchase Value
 
-
-Most Popular Items
-
-Identify the 5 most popular items by purchase count, then list (in a table):
-
-Item ID
-Item Name
-Purchase Count
-Item Price
-Total Purchase Value
-
-
-
-
-Most Profitable Items
-
-Identify the 5 most profitable items by total purchase value, then list (in a table):
-
-Item ID
-Item Name
-Purchase Count
-Item Price
-Total Purchase Value
+### Pymoli Analysis:
+1. Female players make up 14% of the Pymoli players. While a smaller percentage, they spend an average of 0.40cents more than males. 
+2. Players between 35-39 yrs old spend more on average. The biggest percentage of players (76.74%) are between the ages of 15-29. Understanding how to motivate or make costs worth it to the younger age range would increase revenue.
 
 
 
-As final considerations:
-
-You must use the Pandas Library and the Jupyter Notebook.
-You must submit a link to your Jupyter Notebook with the viewable Data Frames.
-You must include a written description of three observable trends based on the data.
-See Example Solution for a reference on expected format.
